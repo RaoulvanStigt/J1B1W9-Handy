@@ -1,0 +1,496 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.page {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.menu {
+    position: absolute;
+    width: 950px;
+    background-color: #222931;
+    font-size: 12px;
+    color: white;
+    padding: 5px;
+    top: 50px; 
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.menu li {
+    display: inline;
+    padding: 0px;
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #ffe718;
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    top: 80px;
+}
+
+.banner {
+    position: absolute;
+    top: 720px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px;
+    justify-content: center;
+    z-index: -1;
+}
+
+.text3 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#banner1:hover {
+    opacity: 0.5;
+    background-color: black;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+#banner2:hover {
+     opacity: 0.5;
+    background-color: black;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+#banner3:hover {
+    opacity: 0.5;
+    background-color: black;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.oplossingen {
+    background-color: #ffe718;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 150px;
+    top: 1000px;
+    z-index: -1;
+}
+
+.ribbonText {
+    position: absolute;
+    left: 400px;
+    top: 30px;
+}
+
+.ribbonText p {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.span1 {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.meerWeten:hover {
+    background-color: #222931;
+    color: white;
+}
+
+.meerWeten {
+    position: relative;
+    background-color: white;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    left: 1250px;
+    top: 50px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.footer {
+    position: absolute;
+    top: 1200px;
+    left: 0;
+}
+
+.footerImg{
+    position: relative;
+    width: 100%;
+}
+
+.deals, .diensten, .contact{
+    width: 320px;
+    background-color: #ffe718;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.deals:hover, .diensten:hover, .contact:hover {
+    background-color: #222931;
+    color: white;
+}
+
+
+.bannerimg{
+    width: 50%;
+    height: 40%;
+    padding: 10px;
+}
+
+
+.deals {
+    position: relative;
+    left: 380px;
+    bottom: 50px;
+}
+
+.dealsHead {
+    position: absolute;
+    left: 125px;
+    bottom: 30px;
+
+}
+
+.dealsSub {
+    font-size: 16px;
+    position: absolute;
+    left: 115px;
+    bottom: 10px;
+}
+
+.deals i{
+    padding: 20px;
+}
+
+.diensten {
+    position: relative;
+    left: 740px;
+    bottom: 156px;
+}
+
+.dienstenHead {
+    position: absolute;
+    left: 120px;
+    bottom: 30px;
+}
+
+.dienstenSub {
+    font-size: 16px;
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+.diensten i{
+    padding: 20px;
+}
+
+.contact {
+    position: relative;
+    left: 1100px;
+    bottom: 260px;
+}
+.contactHead {
+    position: absolute;
+    left: 120px;
+    bottom: 30px;
+}
+
+.contactSub {
+    font-size: 16px;
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+.contact i{
+    padding: 20px;
+}
+
+.overOns {
+    position: absolute;
+    top: 1700px;
+    left: 380px;
+    width: 1040px;
+    display: block;
+    border-top: 1px solid grey;
+}
+
+.lorem{
+    display: block;
+    width: 450px;
+}
+
+.contactInfo{
+    position: absolute;
+    top: 1700px;
+    right: 150px;
+    display: block;
+    width: 500px;
+}
+
+.location, .mobile, .mail{
+    position: relative;
+    left: 25px;
+    bottom: 40px;
+    height: 10px;
+}
+
+
+.creator {
+    background-color: #222931;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    top: 2050px;
+    z-index: -1;
+    top: 2100px;
+}
+
+.creator p{
+    position: relative;
+    color: white;
+    text-align: right;
+    right: 50px;
+}
+
+.dienstenText{
+    position: relative;
+    top: 650px;
+    display: block;
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    padding-top: 17px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffe718;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: #A9A9A9;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffe718;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dienstenText {
+    position: absolute;
+    left: 100px;
+}
+
+#coloredWords {
+    color: yellow;
+}
+
+.dienstenText{
+    position: relative;
+    top: 650px;
+    display: block;
+}
+
+.textTitle{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.text{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.textpagina{
+    margin-top: 570px;
+}
+
+.tooltip1, .tooltip2, .tooltip3 {
+    opacity: 0;
+}
+.omhulsing, .omhulsing2, .omhulsing3 {
+    cursor: pointer;
+}
+.text .nieuwbouw, .advies, .regelgeving {
+    color: #ffe718;
+}
+
+.omhulsing:hover .tooltip1 {
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.omhulsing2:hover .tooltip2 {
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.omhulsing3:hover .tooltip3 {
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.omhulsing:after .tooltip1 {
+    transition: 1s;
+}
+
+.tooltip1{
+    display: block;
+    width: 300px;
+    background-color: #aeb6be;
+    border: solid 5px darkgrey;
+    border-radius: 10px;
+    position: absolute;
+    right: 450px;
+    top: 780px;
+    color: white;
+    padding: 10px;
+}
+
+.tooltip2 {
+    display: block;
+    width: 300px;
+    background-color: #aeb6be;
+    border: solid 5px darkgrey;
+    border-radius: 10px;
+    position: absolute;
+    top: 950px;
+    right: 200px;
+    color: white;
+    padding: 10px;
+}
+
+.tooltip3 {
+    display: block;
+    width: 300px;
+    background-color: #aeb6be;
+    border: solid 5px darkgrey;
+    border-radius: 10px;
+    position: absolute;
+    color: white;
+    top: 975px;
+    right: 620px;
+    padding: 10px;
+}
+
+#breadcrumb{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
